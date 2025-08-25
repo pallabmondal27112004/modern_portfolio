@@ -50,8 +50,8 @@ A **modern, responsive portfolio website** built with:
 
 ## 🔗 Live Demo
 
-- **Frontend:** [https://your-frontend-link.com](https://your-frontend-link.com)  
-- **Backend API:** [https://your-backend-link.com/api/](https://your-backend-link.com/api/)  
+- **Frontend:** [[helpful-sorbet-3b1499.netlify.app)](https://helpful-sorbet-3b1499.netlify.app/)  
+- **Backend API:** [https://portfolio-backend-ef0r.onrender.com)  
 
 ---
 
