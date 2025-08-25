@@ -8,8 +8,6 @@ A **modern, responsive portfolio website** built with:
 - **Frontend:** React, Redux, Framer Motion, Bootstrap  
 - **Backend:** Django, Django REST Framework (DRF)  
 
-![Portfolio Screenshot](./assets/portfolio-home.png)  
-> *Replace the image path with your actual screenshot.*
 
 ---
 
@@ -38,13 +36,7 @@ A **modern, responsive portfolio website** built with:
 
 ---
 
-## 📸 Screenshots
 
-| Home Page                | Projects Page           | Contact Page          |
-|-------------------------|------------------------|----------------------|
-| ![Home](./assets/home.png) | ![Projects](./assets/projects.png) | ![Contact](./assets/contact.png) |
-
-> Place your screenshots inside `/assets`.
 
 ---
 
