@@ -1,12 +1,63 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# 🌐 Portfolio Website
+<img width="7800" height="3320" alt="Image" src="https://github.com/user-attachments/assets/8e8d16cb-ecc1-4bc9-9b38-43c4b60de813" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+A **modern, responsive portfolio website** built with:  
+- **Frontend:** React, Redux, Framer Motion, Bootstrap  
+- **Backend:** Django, Django REST Framework (DRF)  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Portfolio Screenshot](./assets/portfolio-home.png)  
+> *Replace the image path with your actual screenshot.*
+
+---
+
+## 🚀 Features
+
+### **Frontend**
+- Built with **React** and **Redux Toolkit** for state management  
+- **Framer Motion** for smooth animations and page transitions  
+- **Bootstrap 5** for a fully responsive, modern UI  
+- **Axios** for API integration with backend  
+- Dynamic **Projects** section and **Contact Form**  
+
+### **Backend**
+- Django **REST API** using Django REST Framework  
+- Endpoints for Projects, Blog, Skills, and Contact  
+- **CORS enabled** for frontend integration  
+- Secure **Admin Panel** for managing content  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Redux Toolkit, Framer Motion, Bootstrap, Axios  
+- **Backend:** Django 4, Django REST Framework, django-cors-headers  
+- **Deployment:** Vercel/Netlify (Frontend), Render/Railway (Backend)
+
+---
+
+## 📸 Screenshots
+
+| Home Page                | Projects Page           | Contact Page          |
+|-------------------------|------------------------|----------------------|
+| ![Home](./assets/home.png) | ![Projects](./assets/projects.png) | ![Contact](./assets/contact.png) |
+
+> Place your screenshots inside `/assets`.
+
+---
+
+## 🔗 Live Demo
+
+- **Frontend:** [https://your-frontend-link.com](https://your-frontend-link.com)  
+- **Backend API:** [https://your-backend-link.com/api/](https://your-backend-link.com/api/)  
+
+---
+
+## 📥 Installation & Setup
+
+### **1. Clone the Repository**
+```bash
+git clone https://github.com/your-username/portfolio-website.git
+cd portfolio-website
