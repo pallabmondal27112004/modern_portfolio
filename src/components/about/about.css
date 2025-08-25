@@ -1,0 +1,199 @@
+.mainabot {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.background {
+  /* background-image: url('/images/about.png'); */
+  clip-path: polygon(0 14%, 100% 0, 96% 95%, 3% 100%);
+
+  background: #FAE586;
+  width: 75%;
+  /* background: red; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* height: 400px; */
+  transition: all .5s ease-in-out;
+  /* width: 100%; */
+  /* max-width: 1200px; */
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+.other {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.background:hover {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important;
+
+}
+
+@media (max-width:550px) {
+  .background {
+    height: 850px !important;
+    clip-path: polygon(0 8%, 100% 0, 96% 95%, 3% 100%);
+
+  }
+
+  .about-responsive {
+    flex-direction: column !important;
+    padding: 100rem 50rem !important;
+
+  }
+
+  .about-text {
+    font-size: .8rem !important;
+    margin: 1rem !important;
+  }
+
+  .responsive-image {
+    width: 200px !important;
+    height: 200px !important;
+    margin: 0rem 5rem;
+  }
+}
+
+/* Enhanced About Content Styles */
+.about-content {
+  /* max-width: 500px; */
+
+}
+
+.about-intro {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.highlight-name {
+  color: #67BE78;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(103, 190, 120, 0.3);
+}
+
+.highlight-role {
+  color: #333;
+  background: linear-gradient(135deg, #67BE78, #5aa866);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.skills-highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.skill-category {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.skill-category:hover {
+  background: rgba(255, 255, 255, 0.5);
+  transform: translateX(5px);
+}
+
+.skill-icon {
+  color: #67BE78;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.skill-text {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.skill-text strong {
+  color: #333;
+}
+
+.passion-text {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.heart-icon {
+  color: #e74c3c;
+  font-size: 1rem;
+  margin-top: 0.2rem;
+  flex-shrink: 0;
+  animation: heartbeat 2s infinite;
+}
+
+.highlight-text {
+  color: #67BE78;
+  font-weight: 600;
+}
+
+@keyframes heartbeat {
+
+  0%,
+  50%,
+  100% {
+    transform: scale(1);
+  }
+
+  25%,
+  75% {
+    transform: scale(1.1);
+  }
+}
+
+@media (max-width: 600px) {
+  .background {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .about-responsive {
+    flex-direction: column !important;
+    gap: 1rem !important;
+    text-align: center;
+  }
+
+  .responsive-image {
+    width: 200px !important;
+    height: 200px !important;
+  }
+
+  .about-content {
+    padding: 0 20px !important;
+  }
+
+  .about-intro {
+    font-size: 0.9rem !important;
+  }
+
+  .skill-category {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+
+  .skill-text {
+    font-size: 0.8rem !important;
+  }
+
+  .passion-text {
+    font-size: 0.8rem !important;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.3rem;
+  }
+}

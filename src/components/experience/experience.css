@@ -1,0 +1,189 @@
+.experience-section {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    min-height: 100vh;
+}
+
+.section-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.section-subtitle {
+    font-family: "EB Garamond", serif;
+    font-size: 1.3rem;
+    color: #666;
+    margin-bottom: 3rem;
+}
+
+.timeline-container {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.timeline-container::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: linear-gradient(to bottom, #67BE78, #FAE586);
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    position: relative;
+    margin: 3rem 0;
+    width: 50%;
+}
+
+.timeline-item.left {
+    left: 0;
+    padding-right: 3rem;
+}
+
+.timeline-item.right {
+    left: 50%;
+    padding-left: 3rem;
+}
+
+.timeline-content {
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.timeline-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+}
+
+.timeline-item.left .timeline-content::after {
+    content: '';
+    position: absolute;
+    right: -15px;
+    top: 30px;
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-left-color: white;
+}
+
+.timeline-item.right .timeline-content::after {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 30px;
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-right-color: white;
+}
+
+.timeline-icon {
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #67BE78, #5aa866);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 15px rgba(103, 190, 120, 0.3);
+    z-index: 2;
+}
+
+.timeline-item.left .timeline-icon {
+    right: -30px;
+    left: auto;
+}
+
+.timeline-item.right .timeline-icon {
+    left: -30px;
+}
+
+.timeline-title {
+    font-family: "EB Garamond", serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.timeline-company {
+    font-family: "EB Garamond", serif;
+    font-size: 1.2rem;
+    color: #67BE78;
+    margin-bottom: 0.5rem;
+}
+
+.timeline-period {
+    background: #FAE586;
+    color: #333;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.timeline-description {
+    font-family: "EB Garamond", serif;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.timeline-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.skill-tag {
+    background: linear-gradient(135deg, #67BE78, #5aa866);
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .timeline-container::before {
+        left: 30px;
+    }
+
+    .timeline-item {
+        width: 100%;
+        left: 0 !important;
+        padding-left: 4rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .timeline-item .timeline-icon {
+        left: 0 !important;
+        right: auto !important;
+    }
+
+    .timeline-content::after {
+        display: none;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+    }
+}

@@ -1,0 +1,9 @@
+@media (max-width: 600px) {
+    .footer{
+        padding: 1rem !important;
+        justify-content: center !important;
+        gap: 5px !important;
+        align-items: center !important;
+    }
+    
+}
